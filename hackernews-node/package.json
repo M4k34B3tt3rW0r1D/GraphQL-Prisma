@@ -10,6 +10,12 @@
     "jsonwebtoken": "^8.3.0",
     "npm": "^6.4.1",
     "prisma": "^1.22.0",
-    "prisma-binding": "^2.1.5"
-  }
+    "prisma-binding": "^2.1.5",
+    "snyk": "^1.602.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
